@@ -29,8 +29,7 @@
     },
     "require": {
         "yiisoft/yii2": "^2.0",
-        "ckeditor/ckeditor": "^4.7 || dev-full/4.25.x",
-        "sunhater/kcfinder": "*"
+        "ckeditor/ckeditor": "^4.7 || dev-full/4.25.x"
     },
     "require-dev": {
         "phpunit/phpunit": "4.*",
@@ -46,6 +45,9 @@
             "installer-paths": {
                 "npm-asset-library": "vendor/npm"
             }
+        },
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
         }
     },
     "extra": {
